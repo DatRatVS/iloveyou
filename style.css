@@ -76,11 +76,7 @@
     width: 100px;
     float: right;
   }
-  
-  #address {
-    text-decoration: underline;
-  }
-  
+
   textarea {
     overflow: auto;
     resize: none;
@@ -93,6 +89,7 @@
   .push{
     margin-bottom: 1em;
     margin-top: .5em;
+    font-size: 48px;
   }
   
   #recipient_email{
@@ -113,5 +110,12 @@
     letter-spacing: 1px;
   }
   
-  
-  
+  iframe {
+    margin-top: 64px;
+    box-shadow: .8em .8em 15px rgba(0,0,0,.3);
+    
+  }
+
+  .address {
+    margin-left: 32px;
+  }
